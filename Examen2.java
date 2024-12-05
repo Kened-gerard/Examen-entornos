@@ -59,8 +59,9 @@ public class Examen2 {
                     break;
 
                 case 4:
-                    
+                     System.out.println("Saliendo del programa. ¡Hasta luego!");
                     break;
+                
 
                 default:
                     
