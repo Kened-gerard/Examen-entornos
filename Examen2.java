@@ -45,7 +45,17 @@ public class Examen2 {
                     break;
 
                 case 3:
-                    
+                     System.out.println("Dime una letra que contar:");
+                    l1 = sc.nextLine().charAt(0);
+                    System.out.println("Dime una frase en la que contar:");
+                    frase = sc.nextLine();
+                    contador = 0; // Reiniciar contador para esta opción
+                    for (int i = 0; i < frase.length(); i++) {
+                        if (frase.charAt(i) == l1) {
+                            contador++;
+                        }
+                    }
+                    System.out.println("La letra '" + l1 + "' aparece " + contador + " veces.");
                     break;
 
                 case 4:
