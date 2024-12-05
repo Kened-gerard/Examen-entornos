@@ -1,0 +1,3 @@
+Este ejercicio combina tanto el desarrollo de un programa sencillo en Java como la gestión de
+versiones mediante Git y colaboración en GitHub. Es una excelente forma de aprender buenas
+prácticas en el uso de herramientas de control de versiones y trabajar en equipo.
