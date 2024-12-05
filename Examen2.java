@@ -29,7 +29,12 @@ public class Examen2 {
 
             switch (opcion) {
                 case 1:
-                    
+                     System.out.println("Dime una primera palabra para concatenar:");
+                    palabra = sc.nextLine();
+                    System.out.println("Dime una segunda palabra:");
+                    palabra2 = sc.nextLine();
+                    resultado = palabra + " " + palabra2; 
+                    System.out.println("Resultado: " + resultado);
                     break;
 
                 case 2:
