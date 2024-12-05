@@ -38,7 +38,10 @@ public class Examen2 {
                     break;
 
                 case 2:
-                    
+                    System.out.println("Ingrese la frase para contar las palabras:");
+                    frase = sc.nextLine();
+                    String[] palabras = frase.trim().split("\\s+");
+                    System.out.println("El número total de palabras es: " + palabras.length);
                     break;
 
                 case 3:
